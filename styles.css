@@ -1,0 +1,116 @@
+/* Center everything vertically and horizontally */
+.page-wrapper {
+  min-height: 100vh;               /* full viewport height */
+  display: flex;
+  justify-content: center;         /* center horizontally */
+  align-items: center;             /* center vertically */
+  background: linear-gradient(to right, #ffecd2, #fcb69f);
+  padding: 20px;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  margin: 0;
+}
+
+/* Content container */
+.container {
+  background-color: #ffffffcc;     /* semi-transparent white */
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+  max-width: 850px;
+  width: 100%;
+  padding: 30px;
+  box-sizing: border-box;
+  overflow-y: auto;
+  max-height: 90vh;
+}
+
+/* Header */
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+h1 {
+  color: #ff4081;
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.tagline {
+  font-style: italic;
+  color: #555;
+  font-size: 18px;
+}
+
+/* Post content */
+.post h2 {
+  color: #4a148c;
+  margin-top: 0;
+}
+
+h3 {
+  color: #880e4f;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+ul {
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+ul li {
+  margin: 5px 0;
+}
+
+/* Image styling - centered & sized */
+.main-image {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  max-height: 400px;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Links */
+a {
+  color: #0d47a1;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Button styling */
+button {
+  display: inline-block;
+  background-color: #ff6f61;
+  color: white;
+  padding: 12px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #e53935;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 40px;
+  color: #777;
+  font-size: 15px;
+}

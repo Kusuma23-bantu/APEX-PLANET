@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My Travel Blog</title>
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #a17230, #f0b5a1);
+    }
+
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    .container {
+      background: rgba(255, 255, 255, 0.95);
+      border-radius: 12px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+      max-width: 900px;
+      width: 100%;
+      padding: 30px 40px;
+      box-sizing: border-box;
+      overflow-y: auto;
+      max-height: 90vh;
+      text-align: center;
+      color: #333;
+    }
+
+    h1 {
+      color: #ff4081;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      color: #4a148c;
+      margin-top: 40px;
+    }
+
+    h3 {
+      color: #880e4f;
+      margin-top: 30px;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+
+    ul {
+      text-align: left;
+      max-width: 600px;
+      margin: 0 auto 30px auto;
+      padding-left: 20px;
+    }
+
+    ul li {
+      margin-bottom: 8px;
+    }
+
+    .main-image {
+      max-width: 100%;
+      max-height: 400px;
+      border-radius: 10px;
+      margin: 20px auto;
+      display: block;
+    }
+
+    a {
+      color: #0d47a1;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    button {
+      background-color: #ff6f61;
+      border: none;
+      border-radius: 25px;
+      color: white;
+      cursor: pointer;
+      font-size: 16px;
+      padding: 12px 25px;
+      margin-top: 10px;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #e53935;
+    }
+
+    footer {
+      margin-top: 40px;
+      font-size: 14px;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>My Travel Blog</h1>
+    <p>Sharing my adventures and travel tips from around the world.</p>
+
+    <h2>Trip to Manali</h2>
+    <img src="images/Manali.jpg" alt="Trip to Manali" class="main-image" />
+    <p>Manali, nestled in the Himalayas, is a paradise for nature lovers and adventure seekers alike.</p>
+
+    <h3>Highlights</h3>
+    <ul>
+      <li>Visit the Solang Valley for skiing and paragliding.</li>
+      <li>Explore the serene Hidimba Devi Temple.</li>
+      <li>Try river rafting in the Beas River.</li>
+      <li>Sample delicious Himachali cuisine.</li>
+    </ul>
+
+    <p>More info: <a href="https://en.wikipedia.org/wiki/Manali,_Himachal_Pradesh" target="_blank" rel="noopener noreferrer">Wikipedia - Manali</a></p>
+
+    <button onclick="alert('Thanks for visiting my travel blog! Keep exploring!')">Click me for a surprise!</button>
+
+    <footer>
+      &copy; 2025 My Travel Blog. All rights reserved.
+    </footer>
+  </div>
+
+</body>
+</html>
